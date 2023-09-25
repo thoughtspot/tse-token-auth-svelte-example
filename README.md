@@ -11,3 +11,5 @@ To run this example, you need to provide the following environment variables:
 * TS_URL - the URL of your ThoughtSpot Server.
 * ORG_ID - the ID of the organization to use.  Use 0 if for the primary org.
 * TS_SECRETKEY - the secret key to use for getting the auth token.
+
+Environment variables can be provided in the container environment or in a .env file located in the root of the project.
