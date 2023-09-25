@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^3.0.3"
+		"@sveltejs/adapter-vercel": "^3.0.3",
+		"vercel": "^32.3.1"
 	}
 }
