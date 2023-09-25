@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import '../app.css'
+</script>
+<h1>Trusted authentication</h1>
+
+<p>
+You've reached the root of the ThoughtSpot trusted authentication example.
+</p>
+<p>
+    To authentication with a user, call
+<span class="mono">https://&lt;auth-host&gt;/token/&lt;username&gt;</span> where:
+</p>
+<ul>
+    <li>The <span class="mono">username</span> is the name of the user to get.</li>
+</ul>
+<p>
+Current this service will always return a token for the given user assuming they exist and the secret key is properly set in the server environment.
+</p>
