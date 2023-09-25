@@ -9,7 +9,7 @@ const config = {
 		adapter: adapter({
 			runtime: 'nodejs18.x',
 			pages: 'public',
-			assets: 'public'
+			assets: 'public',
 		})
 	}
 };
