@@ -8,8 +8,6 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter({
 			runtime: 'nodejs18.x',
-			pages: 'build',
-			assets: 'build',
 		})
 	}
 };
